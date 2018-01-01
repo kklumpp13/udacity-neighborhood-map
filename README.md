@@ -1,7 +1,5 @@
 # Neighborhood Map
 
-## About
-
 This project is part of Udacity's Front End Nanodegree. This project requires us to build a single page application with KnockoutJS, the Google Maps API and one other API of our choice. I chose to build a map that shows a few spots in downtown Helena that I like to eat at. When you click on either the restaurant name or the map marker, you will see a window appear with the restaurant's contact information, which is obtained through the Foursquare API. You also have the option of using an input field to filter by restaurant name.
 
 ## Getting Started
