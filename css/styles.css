@@ -1,0 +1,96 @@
+/* General */
+
+body {
+  color: #141115;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  padding: 5px 15px;
+  width: 85%;
+  border: 1px solid #4C2B36;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* List Items */
+
+nav {
+  overflow-y: scroll;
+  height: 60vh;
+  border: 1px solid #4C2B36;
+}
+
+header,
+.filter {
+  padding: 10px;
+}
+
+.page-title {
+  background: #4C2B36;
+  color: #fff;
+}
+
+
+
+.filter-label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.location-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.locations {
+  border-bottom: 1px solid #4C2B36;
+  padding: 10px 15px;
+}
+
+.locations:hover {
+  background: #4C2B36;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.warning {
+  color: #FE5F55;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Map */
+
+#map {
+  height: 40vh;
+}
+
+.foursquare {
+  font-style: italic;
+}
+
+@media screen and (min-width: 767px) {
+  main {
+    flex-direction: row;
+  }
+
+  nav,
+  #map  {
+    height: 100vh;
+  }
+
+  #map {
+    flex-basis: 80%;
+  }
+}
